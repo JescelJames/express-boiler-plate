@@ -1,1 +1,18 @@
-console.log('This is there server')
+// DEPENDENCIES
+// express
+
+// DATA
+
+// APP / PORT
+
+
+// MIDDLEWARES
+
+
+// ROUTES
+
+
+
+
+// START SERVER
+
