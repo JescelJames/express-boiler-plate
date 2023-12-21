@@ -1,7 +1,7 @@
 // DEPENDENCIES
 // express
 const express = require('express');
-
+const path =  require('path');
 
 
 // DATA
@@ -20,6 +20,14 @@ app.use(express.static('public'));
 
 
 // ROUTES
+// html routes - deliver pages
+// GET/ -the home page
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html')))
+
+
+
+// api routes - deliver data
+
 
 
 // START SERVER
