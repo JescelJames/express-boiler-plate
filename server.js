@@ -27,6 +27,12 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html'
 
 
 // api routes - deliver data
+app.get('/api/todos', (req,res) => 
+res.json([
+    {
+        title: "buy milk",
+        
+}]));
 
 
 
